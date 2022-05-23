@@ -1,3 +1,16 @@
-p {
-    color: violet;
+body{
+    font-family: "Open Sanse", sans-serif ;
 }
+*{
+    color: tomato;
+}
+p {color: teal;}
+
+.text{color:brown}
+
+.list{list-style: none;}
+
+[href] {color: green;}
+
+.header-nav 
+a {background-color: rgb(182, 193, 202);}

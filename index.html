@@ -4,88 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+
     <title>Barber shop</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="">
+    <!-- header -->
+    <header class="header">
+        <a class="header-logo" href="">
             <img src="./imges/logo.svg" alt="лого сайта">
         </a>
-        <nav>
-            <ul>
-                <li><a href="">О нас</a></li>
-                <li><a href="">Услуги</a></li>
-                <li><a href="">Мастера</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-item"><a href="">О нас</a></li>
+                <li class="header-item"><a href="">Услуги</a></li>
+                <li class="header-item"><a href="">Мастера</a></li>
+                <li class="header-item"><a href="">Контакты</a></li>
             </ul>    
         </nav>
-        <a href="tel:+380441111111">+38 0441111111</a>
-        <button type="button">Онлайн-запись</button>
+        <a class="header-tel" href="tel:+380441111111">+38 0441111111</a>
+        <button type="button" class="header-btn">Онлайн-запись</button>
     </header>
 <main>
     <!-- section 1 -->
-    <section>
-        <ul>
-            <li><a href="" target="_blank">instagram</a>
+    <section class="hero">
+        <ul class="hero-list">
+            <li class="hero-item"><a href="" target="_blank">instagram</a>
             </li>
-            <li><a href="" target="_blank">youtube</a>
+            <li class="hero-item"><a href="" target="_blank">youtube</a>
             </li>
         </ul>
-        <p lang="en"> A hair salon for men in Kyiv</p>
+        <p lang="en" class="hero-pre-title"> A hair salon for men in Kyiv</p>
         <h1>BarberShop</h1>
-        <p style="color:tomato ;">Мы эксперты в модных мужских стрижках. 
+        <p class="hero-after-title"">Мы эксперты в модных мужских стрижках. 
             Работаем быстро, осторожно и со вкусом.</p>
     </section>
+
     <!-- section 2 -->
-    <section>
-        <ul>
-            <li><img src="./imges/aboutimg1.jpg"
+    <section class="about">
+        <ul class="about-list">
+            <li class="about-item"><img src="./imges/aboutimg1.jpg"
                 alt="барбер бреет шею"
                 width="270"
                 height="475"
                 ></li>
-            <li><img src="./imges/aboutimg2.jpg"
+            <li class="about-item"><img src="./imges/aboutimg2.jpg"
                 alt=" барбер подстригает шею "
                 width="270"
                 height="475"
                 ></li>
         </ul>
-        <p>О НАС</p>
-        <h2>Лучший Барбершоп
+        <p class="about-pre-title">О НАС</p>
+        <h2 class="about-title">Лучший Барбершоп
             твоего города
         </h2>
-        <p>Если ты хочешь добавить в свой образ больше уверенности
+        <p class="aboute-after-title">Если ты хочешь добавить в свой образ больше уверенности
             – тебе точно к нам.</p>
-        <p>Мы команда, которая никогда не останавливается на достигнутом 
+        <p class="about-text">Мы команда, которая никогда не останавливается на достигнутом 
             и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
             то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
         Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-        <button type="button">Онлайн-запись</button>
+        <button type="button" class="about-btn
+        
+        ">Онлайн-запись</button>
     </section>
     <!-- section 3 -->
     <section>
         <p>Проведи время в компании лучших мастеров</p>
         <h2>Услуги и цены</h2>
-        <ul>
+        <ul class="list">
             <li>
-                <p>Мужская стрижка</p>
-                <p>от 300 грн.</p>
+                <p class="text">Мужская стрижка</p>
+                <p class="text">от 300 грн.</p>
             </li>
             <li>
-                <p>Стрижка</p>
-                <p>от 200 грн.</p>
+                <p class="text">Стрижка</p>
+                <p class="text">от 200 грн.</p>
             </li>
             <li>
-                <p>Стрижка бороды</p>
-                <p>от 200 грн.</p>
+                <p class="text">Стрижка бороды</p>
+                <p class="text">от 200 грн.</p>
             </li>
             <li>
-                <p>Бритье опасной бритвой</p>
-                <p>от 200 грн.</p>
+                <p class="text">Бритье опасной бритвой</p>
+                <p class="text">от 200 грн.</p>
             </li>
         </ul>
-        <ul>
+        <ul class="list">
             <li>
                 <p>Мужская стрижка</p>
                 <p>от 300 грн.</p>
@@ -107,7 +115,7 @@
     </section>
     <!-- section 4 -->
     <section>
-        <ul>
+        <ul class="list">
             <li>
                 <span>600</span>
                 <p>Довольных клиентов в день</p>
@@ -133,7 +141,7 @@
     <section>
         <p>для настоящих ценителей атмосферы</p>
         <h2>Наши мастера</h2>
-        <ul>
+        <ul class="list">
             <li>
                 <img src="./imges/img1min.jpg" alt="барбер стрижет клиентам"
                 width="370"
@@ -161,7 +169,7 @@
     <section>
         <p>На латинском языке “барба” означает “борода”</p>
         <h2 hidden>галерея</h2>
-        <ul>
+        <ul class="list">
             <li><img src="./imges/Rectangle25min.jpg" alt="барбер стрижет клиента"
             width="270"
             height="360"></li>
@@ -184,7 +192,7 @@
     <section>
         <h2>адреса</h2>
         <address>
-            <ul>
+            <ul class="list">
                 <li><a href="https://goo.gl/maps/WuXvNT2dgfFLKpo4A" target="_blank" rel="noopener noreferrer"> ул. Васильковая, 7А
                     Киев, 08132"</a></li>
                 <li><a href="tel:+380441111111">+380441111111</a></li>
@@ -198,7 +206,7 @@
 </main> 
 <footer>
     <p>&copy;Copyright 2020</p>
-    <ul>
+    <ul class="list">
         <li><a href="" target="_blank">Instagram</a></li>
         <li><a href="" target="_blank">Youtube</a></li>
     </ul>
