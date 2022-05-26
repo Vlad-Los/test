@@ -15,64 +15,76 @@
 <body>
     <!-- header -->
     <header class="header">
-        <a class="header-logo" href="">
-            <img src="./imges/logo.svg" alt="лого сайта">
+        <a class="header-link" href="">
+            <img class="heaer-logo" src="./imges/logo.svg" alt="лого сайта">
         </a>
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li class="header-item"><a href="https://www.google.com.ua/">О нас</a></li>
-                <li class="header-item"><a href="">Услуги</a></li>
-                <li class="header-item"><a href="">Мастера</a></li>
-                <li class="header-item"><a href="">Контакты</a></li>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="https://www.google.com.ua/">О нас</a></li>
+                <li class="nav-item"><a href="">Услуги</a></li>
+                <li class="nav-item"><a href="">Мастера</a></li>
+                <li class="nav-item"><a href="">Контакты</a></li>
             </ul>    
         </nav>
-        <a class="header-tel" href="tel:+380441111111">+38 0441111111</a>
+        <a class="header-phone" href="tel:+380441111111">+38 0441111111</a>
         <button type="button" class="header-btn">Онлайн-запись</button>
     </header>
 <main>
-    <!-- section 1 -->
+    <!-- section hero -->
+
     <section class="hero">
         <ul class="hero-list">
-            <li class="hero-item"><a href="" target="_blank">instagram</a>
+            <li class="hero-item"><a class="hero-link" href="" target="_blank">instagram</a>
             </li>
-            <li class="hero-item"><a href="" target="_blank">youtube</a>
+            <li class="hero-item"><a class="hero-link" href="" target="_blank">youtube</a>
             </li>
         </ul>
-        <p lang="en" class="hero-pre-title"> A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p class="hero-after-title"">Мы эксперты в модных мужских стрижках. 
-            Работаем быстро, осторожно и со вкусом.</p>
-    </section>
+        <p lang="en" class="hero-upper-title"> A hair salon for men in Kyiv</p>
+        <h1 class="title">BarberShop</h1>
+        <p class="hero-after-title">
+            Мы эксперты в модных мужских стрижках. 
+            Работаем быстро, осторожно и со вкусом.
+        </p>
+        <ul class="hero-list ">
+            <li class="hero-item">
+                <button class="hero-btn" type="button">Назад</button>
 
-    <!-- section 2 -->
-    <section class="about">
-        <ul class="about-list">
-            <li class="about-item"><img src="./imges/aboutimg1.jpg"
-                alt="барбер бреет шею"
-                width="270"
-                height="475"
-                ></li>
-            <li class="about-item"><img src="./imges/aboutimg2.jpg"
-                alt=" барбер подстригает шею "
-                width="270"
-                height="475"
-                ></li>
+            </li>
+            <li  class="hero-item">
+                <button class="hero-btn" type="button">Вперед</button>
+            </li>
         </ul>
-        <p class="about-pre-title">О НАС</p>
-        <h2 class="about-title">Лучший Барбершоп
-            твоего города
-        </h2>
-        <p class="aboute-after-title">Если ты хочешь добавить в свой образ больше уверенности
-            – тебе точно к нам.</p>
-        <p class="about-text">Мы команда, которая никогда не останавливается на достигнутом 
-            и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
-            то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
-        Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-        <button type="button" class="about-btn
-        
-        ">Онлайн-запись</button>
     </section>
-    <!-- section 3 -->
+            <!-- Секция о нас -->
+            <section class="about">
+                <ul class="about-list">
+                    <li class="about-item"><img src="./imges/aboutimg1.jpg"
+                        alt="барбер бреет шею"
+                        width="270"
+                        height="475"
+                        ></li>
+                    <li class="about-item"><img src="./imges/aboutimg2.jpg"
+                        alt=" барбер подстригает шею "
+                        width="270"
+                        height="475"
+                        ></li>
+                </ul>
+                <p class="about-pre-title">О НАС</p>
+                <h2 class="about-title">Лучший Барбершоп
+                    твоего города
+                </h2>
+                <p class="aboute-after-title">Если ты хочешь добавить в свой образ больше уверенности
+                    – тебе точно к нам.</p>
+                <p class="about-text">Мы команда, которая никогда не останавливается на достигнутом 
+                    и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
+                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
+                Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+                <button type="button" class="about-btn
+                
+                ">Онлайн-запись</button>
+            </section>
+        
+    <!-- Секция услуги и цены -->
     <section>
         <p>Проведи время в компании лучших мастеров</p>
         <h2>Услуги и цены</h2>
@@ -114,7 +126,7 @@
         </ul>
         <button type="button">Онлайн-запись</button>
     </section>
-    <!-- section 4 -->
+    <!-- Секция преймущества-->
     <section>
         <ul class="list">
             <li>
@@ -138,7 +150,7 @@
         <h2>Почему приходят именно к нам?</h2>
         <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
     </section>
-    <!-- section 5 -->
+    <!-- Секция наши мастера-->
     <section>
         <p>для настоящих ценителей атмосферы</p>
         <h2>Наши мастера</h2>
@@ -166,7 +178,7 @@
             </li>
         </ul>
     </section>
-    <!-- section 6 -->
+    <!-- Секция Галерея -->
     <section>
         <p>На латинском языке “барба” означает “борода”</p>
         <h2 hidden>галерея</h2>
@@ -185,12 +197,9 @@
             height="360"></li>
         </ul>    
     </section>
-    <!-- section 7 -->
+    <!-- Контакты -->
     <section>
         <h2>Онлайн-запись</h2>
-    </section>
-    <!-- section 8 -->
-    <section>
         <h2>адреса</h2>
         <address>
             <ul class="list">
@@ -201,7 +210,6 @@
             </ul>
             <b>Время работы</b>
             <p>Ежедневно с 9:00 до 22:00</p>
-
         </address>
     </section>
 </main> 
