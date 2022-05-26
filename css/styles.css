@@ -6,11 +6,16 @@ body{
 }
 p {color: teal;}
 
-.text{color:brown}
+.text,
+.header-link
+
+{color:brown}
 
 .list{list-style: none;}
 
-[href] {color: green;}
+[href="https://www.google.com.ua/"] {color: green;}
 
 .header-nav 
 a {background-color: rgb(182, 193, 202);}
+.header-item > a { background-color: aqua;}
+.header-tel + button {background-color: blue;}
