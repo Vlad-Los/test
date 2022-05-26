@@ -1,6 +1,57 @@
 body{
     font-family: "Open Sanse", sans-serif ;
+    font-size: 18px;
+    line-height: 1.67;
+
+    letter-spacing: 0.02em;
+    color: #555555;
+
+    font-family: "Raleway", sans-serif ;
+    
 }
+
+
+/* font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+letter-spacing: 0.02em;
+
+color: #555555; */
+
+
+/* #303030
+#FFFFFF
+#9DA4BD
+#FF6C00
+#9DA4BD
+12 %
+#9DA4BD
+60 %
+#F7F7F7
+#9DA4BD
+40 %
+#000000
+#555555
+Linear Gradient
+#090B13
+100 %
+#090B13
+20 %
+#111319
+Linear Gradient
+#171A24
+100 %
+#171A24
+20 %
+#191C26
+#191C26
+20 % */
+
+
 *{
     color: tomato;
 }
