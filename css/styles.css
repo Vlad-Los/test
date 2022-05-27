@@ -1,17 +1,4 @@
-body{
-    font-family: "Open Sanse", sans-serif ;
-    font-size: 18px;
-    line-height: 1.67;
-
-    letter-spacing: 0.02em;
-    color: #555555;
-
-    font-family: "Raleway", sans-serif ;
-    
-}
-
-
-/* font-family: 'Open Sans';
+* font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -49,24 +36,82 @@ Linear Gradient
 20 %
 #191C26
 #191C26
-20 % */
+
+/*  */
 
 
-*{
-    color: tomato;
+
+/*  */
+
+:root{
+    --main-font : "Open Sanse", sans-serif ;
+    --secondary-font: "Raleway", sans-serif ;
 }
-p {color: teal;}
 
-.text,
-.header-link
+body{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 1.67;
 
-{color:brown}
+    letter-spacing: 0.02em;
+    color: #555555;
 
-.list{list-style: none;}
+    font-family: var(--secondary-font);
+    
+}
+.subtitle {
+    font-family: var(--main-font);
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+/* identical to box height */
 
-[href="https://www.google.com.ua/"] {color: green;}
+letter-spacing: 0.1em;
+text-transform: uppercase;
 
-.header-nav 
-a {background-color: rgb(182, 193, 202);}
-.header-item > a { background-color: aqua;}
-.header-tel + button {background-color: blue;}
+color:#303030;
+
+
+}
+
+.title {
+    font-family: var(--secondary-font)
+    
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    
+    color: #303030;
+}
+
+.main-btn {
+    font-family: 'Open Sans',sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+/* Header */
+.nav-link {
+    
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+
+color: var(--primry-dark-txt)
+}
+
+.nav-link:hover,
+.nav-link:focus
+{color: #ff6c00;}
+
+
+
+
