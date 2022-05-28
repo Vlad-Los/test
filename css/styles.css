@@ -26,13 +26,13 @@ body{
     font-family: var(--main-font);
     font-size: 18px;
     line-height: 1.67;
-
     letter-spacing: 0.02em;
-    color: #555555;
 
-    font-family: var(--secondary-font);
-    
+    color: var(--primary-light-txt)   
 }
+.list{list-style: none ;}
+.link {text-decoration: none;}
+
 .subtitle {
     font-family: var(--main-font);
 font-weight: 600;
@@ -67,13 +67,13 @@ line-height: 1.33;
 letter-spacing: 0.09em;
 text-transform: uppercase;
 
-color: var(--white-txt-cl)
-
+color: var(--white-txt-cl);
+cursor: pointer;
 }
 
 /* Header */
 .header{
-    background-color: var(--primry-dark-txt);
+    background-color: var(--primary-dark-bg);
 }
 .nav-link {
     
@@ -86,8 +86,10 @@ color: var(--primry-dark-txt);
 }
 
 .nav-link:hover,
-.nav-link:focus
-{color: #ff6c00;}
+.nav-link:focus {
+    color: var(--accent-txt) ;
+}
+
 
 .header-phone {
 font-weight: 600;
