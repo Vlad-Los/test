@@ -1,51 +1,25 @@
-* font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-/* identical to box height, or 167% */
 
-letter-spacing: 0.02em;
-
-color: #555555; */
-
-
-/* #303030
-#FFFFFF
-#9DA4BD
-#FF6C00
-#9DA4BD
-12 %
-#9DA4BD
-60 %
-#F7F7F7
-#9DA4BD
-40 %
-#000000
-#555555
-Linear Gradient
-#090B13
-100 %
-#090B13
-20 %
-#111319
-Linear Gradient
-#171A24
-100 %
-#171A24
-20 %
-#191C26
-#191C26
-
-/*  */
-
-
-
-/*  */
 
 :root{
+    /* Основные шрифты */
     --main-font : "Open Sanse", sans-serif ;
     --secondary-font: "Raleway", sans-serif ;
+
+    /* Светлая тема текста */
+
+    --accent-txt: #ff6c00;
+    --primary-light-txt: #555555;
+    --secondary-light-txt: #303030;
+
+/* Темная тема текста*/
+    --primary-dark-text: #ffffff;
+    --secindary-dark-txt: rgba(157,164,189,0.6);
+/* Светлая тема фона*/
+--ptymary-light-bg: #ffffff;
+--secondary-light-bg: #F7F7F7;
+
+/* Темная тема фона*/
+--primary-dark-bg: #191c26;
 }
 
 body{
@@ -75,7 +49,7 @@ color:#303030;
 }
 
 .title {
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
     
     font-weight: 700;
     font-size: 42px;
@@ -86,18 +60,21 @@ color:#303030;
 }
 
 .main-btn {
-    font-family: 'Open Sans',sans-serif;
+font-family: var(--secondary-font);
 font-weight: 600;
 font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.09em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: var(--white-txt-cl)
 
 }
 
 /* Header */
+.header{
+    background-color: var(--primry-dark-txt);
+}
 .nav-link {
     
 font-weight: 600;
@@ -105,12 +82,24 @@ font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.1em;
 
-color: var(--primry-dark-txt)
+color: var(--primry-dark-txt);
 }
 
 .nav-link:hover,
 .nav-link:focus
 {color: #ff6c00;}
+
+.header-phone {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: var(--primry-dark-txt)
+}
+
+.header-btn
 
 
 
