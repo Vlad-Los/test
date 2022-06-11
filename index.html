@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Нормализация -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
     <!-- Основные шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +18,7 @@
 <body>
     <!-- header -->
     <header class="header">
+        <div class="container header-container">
         <a class="header-link link" href="">
             <img class="heaer-logo" src="./imges/logo.svg" alt="лого сайта">
         </a>
@@ -28,15 +32,19 @@
                     <a class="nav-link link" href="">Мастера</a></li>
                 <li class="nav-item">
                     <a class="nav-link link" href="">Контакты</a></li>
-            </ul>    
+            </ul>  
+
         </nav>
+        <div class="header-wripper">
         <a class="header-phone" href="tel:+380441111111">+38 0441111111</a>
         <button type="button" class="header-btn">Онлайн-запись</button>
+        </div>
     </header>
 <main>
     <!-- section hero -->
 
     <section class="hero">
+        <div class="container">
         <ul class="hero-list list">
             <li class="hero-item"><a class="hero-link link" href="" target="_blank">instagram</a>
             </li>
@@ -58,9 +66,11 @@
                 <button class="hero-btn" type="button">Вперед</button>
             </li>
         </ul>
+        </div>
     </section>
             <!-- Секция о нас -->
             <section class="about">
+                <div class="container">
                 <ul class="about-list list">
                     <li class="about-item"><img src="./imges/aboutimg1.jpg"
                         alt="барбер бреет шею"
@@ -86,10 +96,12 @@
                 <button type="button" class="about-btn
                 
                 ">Онлайн-запись</button>
+                </div>
             </section>
         
     <!-- Секция услуги и цены -->
     <section class="price">
+        <div class="container">
         <p class="upper-title"> Проведи время в компании лучших мастеров</p>
         <h2 class="title">Услуги и цены</h2>
         <ul class="price-item list">
@@ -129,9 +141,11 @@
             </li>
         </ul>
         <button class="main-btn" type="button">Онлайн-запись</button>
+        </div>
     </section>
     <!-- Секция преймущества-->
     <section>
+        <div class="container">
         <ul class="list">
             <li>
                 <span>600</span>
@@ -153,9 +167,11 @@
         <p>старая традиционная школа</p>
         <h2>Почему приходят именно к нам?</h2>
         <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
+        </div>
     </section>
     <!-- Секция наши мастера-->
     <section>
+        <div class="container header-container">
         <p>для настоящих ценителей атмосферы</p>
         <h2>Наши мастера</h2>
         <ul class="list">
@@ -181,9 +197,11 @@
                 <p lang="en">Extreme Barber</p>
             </li>
         </ul>
+        </div>
     </section>
     <!-- Секция Галерея -->
     <section>
+        <div class="container">
         <p>На латинском языке “барба” означает “борода”</p>
         <h2 hidden>галерея</h2>
         <ul class="list">
@@ -199,10 +217,12 @@
             <li><img src="./imges/Rectangle28min.jpg" alt="барбер стрижет клиента"
             width="270" 
             height="360"></li>
-        </ul>    
+        </ul> 
+        </div>  
     </section>
     <!-- Контакты -->
     <section>
+        <div class="container">
         <h2>Онлайн-запись</h2>
         <h2>адреса</h2>
         <address>
@@ -215,14 +235,17 @@
             <b>Время работы</b>
             <p>Ежедневно с 9:00 до 22:00</p>
         </address>
+        </div>  
     </section>
 </main> 
 <footer>
+    <div class="container">
     <p>&copy;Copyright 2020</p>
     <ul class="list">
         <li><a href="" target="_blank">Instagram</a></li>
         <li><a href="" target="_blank">Youtube</a></li>
     </ul>
+    </div>
 </footer> 
 </body>
 </html>
