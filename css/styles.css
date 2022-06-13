@@ -207,6 +207,24 @@ h1, h2, h3, h4, p {
     margin-bottom: 20px;
 }
 
+.about-wrapper{
+    width: 500px;
+    margin-left: auto;
+}
+
+.about-container{
+    display: flex;
+}
+.about-list{display: flex;}
+
+
+.about-item{
+    margin-right: 30px;
+}
+.about-item:last-child{
+    margin-right: 0;
+}
+
 .footer{
     padding-top: 56px;
     padding-bottom: 56px;
@@ -230,6 +248,15 @@ h1, h2, h3, h4, p {
     margin-right: 0;
 }
 
+.title{
+    margin-bottom: 20px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 00.05em;
+    color: var(--secondary-light-bg);
+}
 
 
 
