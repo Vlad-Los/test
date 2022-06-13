@@ -77,8 +77,9 @@ h1, h2, h3, h4, p {
 
 
 .subtitle {
+    margin-bottom: 20pt;
     font-family: var(--main-font);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
