@@ -54,10 +54,27 @@ h1, h2, h3, h4, p {
 
 }
 
+.section{
+    padding-bottom: 130px;
+    padding-bottom: 130px;
+}
+
 .nav-list{
     display: flex;
     align-items: center;
 }
+
+.uppertitle-mode-dark{
+    font-family: var(--main-font);;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:var(--secindary-dark-txt);
+    background-color: #303030;
+}
+
 
 .subtitle {
     font-family: var(--main-font);
@@ -69,23 +86,24 @@ h1, h2, h3, h4, p {
     color:#303030;
 }
 
-.title {
+.hero-title {
     font-family: var(--primary-dark-text);
     font-weight: 700;
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
     background-color: #303030;
+    margin-bottom: 20px;
 }
-
-.hero-after-title{
+.subtitle-mode-dark{
     font-family: var(--primary-dark-text);
     font-weight: 400;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: var(--secondary-dark-spesial-txt);
-    background-color: #303030;    
+    background-color: #303030;  
+    margin-bottom: 0px;
 }
 
 .main-btn {
@@ -104,6 +122,8 @@ h1, h2, h3, h4, p {
 
 /* Header */
 .header{
+    padding-top: 32px;
+    padding-bottom: 32px;
     background-color: var(--primary-dark-bg);
 }
 
@@ -134,7 +154,11 @@ h1, h2, h3, h4, p {
     margin: 0;
 }
 
-.header-wripper{margin-left: auto;}
+.header-wripper{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 
 
 .header-phone {
@@ -149,6 +173,8 @@ h1, h2, h3, h4, p {
 }
 
 .header-btn{
+    max-width: 350px;
+    min-width: 160px;
     border-radius: 25px;
     border: 1px solid #FF6C00;
     padding: 12px 20px;
@@ -161,6 +187,47 @@ h1, h2, h3, h4, p {
     color: var(--white-txt-cl);
     cursor: pointer;
 
+}
+
+.hero-list{
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-item{
+    margin-right: 40px;
+}
+
+.hero-item:last-child{
+    margin-right: 0;
+}
+
+.uppertitle{
+    margin-bottom: 20px;
+}
+
+.footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.footer-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.footer-list{
+    display: flex;
+    align-items:center;
+}
+.footer-item{
+    margin-right: 40px;
+}
+
+.footer-item:last-child{
+    margin-right: 0;
 }
 
 
