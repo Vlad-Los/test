@@ -351,7 +351,12 @@ main-btn-mode-light {
 }
 
 /* наши мастера */
+.team-wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
 
+
+}
 
 .time-list{
     display: flex;
@@ -364,9 +369,17 @@ main-btn-mode-light {
 }
 
 .team-member{
-    flex-basis: calc(100% / 3 -30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-top: 30px;
     margin-right: 30px;
+    text-align: center;
+}
+
+.team-headline{
+    font-size: 18px;
+    line-height: 1.39;
+    letter-spacing: 00.02em;
+    color: var(--secondary-txt--mode-light);
 }
 
 .socials {
