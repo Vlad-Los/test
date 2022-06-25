@@ -58,7 +58,7 @@ img{
 }
 
 .section{
-    padding-bottom: 130px;
+    padding-top: 130px;
     padding-bottom: 130px;
 }
 
@@ -307,8 +307,12 @@ main-btn-mode-light {
 }
 
 /* Price */
-.price {
+.price{
     background-color: var(--secondary-bg--mode-dark);
+    background-image: url(../imges/price.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .price .title {
@@ -323,7 +327,7 @@ main-btn-mode-light {
 }
 
 .price-item {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     flex-basis: calc(100% / 2);
     padding: 30px 40px;
 
@@ -337,6 +341,19 @@ main-btn-mode-light {
 }
 .price-inner-item:last-child {
     margin-bottom: 0;
+}
+
+.price-item-left-side{
+    background-image: 
+    linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+
+
+}
+
+.price-item-right-side{
+    background-image: 
+    linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+
 }
 
 .price-inner-name,
@@ -450,6 +467,24 @@ background-image: url(../icons/linkedin.svg);
 
     color: var(--secondary-txt--mode-light);
 }
+
+/* Gallery */
+
+.gallery-list{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-right: -30px;
+
+}
+
+.gallery-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
 
 /* Contacts */
 .contacts {
