@@ -311,25 +311,66 @@
     </section>
     <!-- Контакты -->
     <section class="contacts section">
-        <div class="container">
-            <h2 class="title title-mode-dark">Контакты</h2>
-            <ul class="contacts-list list">
-            <li class="contacts-item">
-            <address class="contacts-address">ул. Васильковая, 7А Киев, 08132</address>
-            </li>
-            <li class="contacts-item">
-            <a class="contacts-link link" href="tel:+380441111111">+38 044 111 11 11</a>
-            </li>
-            <li class="contacts-item">
-            <a class="contacts-link link" href="mailto:barbershop@email.com">barbershop@email.com</a>
-            </li>
-        </ul>
+        <div class="container contacts-container">
+<div class="contacts-left-side">
+<h2 class="title-mode-dark">Онлайн-запись</h2>
+<form action="" class="contacts-form">
+    <div class="contacts-wrapper">
+        <label class="form-label" for="name" >
+    <input class="form-input" type="text" minlength="3" id="name"/>
+    <span class="form-text">Имя*</span>
+</label>
+<label class="form-label">
+    <input class="form-input" type="tel" required />
+    <span class="form-text">Телефон*</span> 
 
-        <h3 class="uppertitle uppertitle-mode-dark">время работы</h3>
-        <p class="contacts-schedule">
-            Ежедневно с <time datetime="9:00">9:00</time> до
-            <time datetime="22:00">22:00</time>
-        </p>
+</label>
+    </div>
+
+
+<label class="contacts-wrapper">
+
+    <textarea 
+    name="massage" 
+    id="massage" 
+    rows="5" 
+    class="form-textaria"
+    placeholder="ВВедите текст..."
+    >
+</textarea>
+<span class="form-text">сообщение</span>
+</label>
+
+<button type="button" class="main-btn main-btn-mode-dark" >онлайн-запись</button>
+</form>
+
+
+
+</div>
+<div class="contacts-right-side">
+
+    <h2 class="title title-mode-dark">Контакты</h2>
+    <ul class="contacts-list list">
+    <li class="contacts-item">
+    <address class="contacts-address">ул. Васильковая, 7А Киев, 08132</address>
+    </li>
+    <li class="contacts-item">
+    <a class="contacts-link link" href="tel:+380441111111">+38 044 111 11 11</a>
+    </li>
+    <li class="contacts-item">
+    <a class="contacts-link link" href="mailto:barbershop@email.com">barbershop@email.com</a>
+    </li>
+</ul>
+
+<h3 class="uppertitle uppertitle-mode-dark">время работы</h3>
+<p class="contacts-schedule">
+    Ежедневно с <time datetime="9:00">9:00</time> до
+    <time datetime="22:00">22:00</time>
+</p>
+
+</div>
+
+            
         </div>
     </section>
     </main>

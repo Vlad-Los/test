@@ -507,6 +507,85 @@ background-image: url(../icons/linkedin.svg);
 
     }
     
+    .contacts-container{
+        display: flex;
+    }
+    .contacts-left-side,
+    .contacts-right-side{
+    flex-basis: calc(100% / 2 - 40px);
+    }
+    .contacts-left-side{
+        margin-right: 40px;
+    }
+
+.contacts-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-wrapper{
+    position: relative;
+    margin-bottom: 44px;
+}
+.form-textaria{
+
+    width: 100%;
+    padding: 10px;
+    color: rgba(157, 164, 189, 0.4);
+    outline: transparent;
+    resize: none;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    
+}
+
+.form-textaria:hover,
+.form-textaria:focus 
+.form-textaria:not(:placeholder-shown),
+.form-textaria:hover + .form-text{
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.form-textaria::placeholder{
+    color: transparent;
+    transition: color 300ms ease-in 100ms;
+}
+
+.form-textaria:focus::placeholder{
+    color: #ffffff;
+}
+
+.form-text{
+position: absolute;
+top: 0;
+left: 0;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: rgba(157, 164, 189, 0.4);
+transition: transform 300ms ease-in-out, color 300ms ease-in-out;  
+
+}
+.form-textarea:hover + .form-text ,
+.form-textarea:focus + .form-text,
+.form-textarea:not(:placeholder-shown)
+{
+    color: #ffffff;
+    transform: translateY(-10px -20px) scale(0.7);
+}
+
+
+
 
     /* Footer */
     
