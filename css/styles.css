@@ -518,15 +518,41 @@ background-image: url(../icons/linkedin.svg);
         margin-right: 40px;
     }
 
+    .contacts-address{
+        font-style: normal;
+    }
+
+.contacts-link{
+    color: currentColor;
+}
+
+
 .contacts-form{
     display: flex;
     flex-direction: column;
 }
 
-.contacts-wrapper{
+.form-field,
+.form-group,
+.form-agreement
+{
     position: relative;
     margin-bottom: 44px;
 }
+
+.form-group{
+    display: flex;
+    align-items: center;
+}
+
+.form-label{
+    position: relative;
+    flex-basis: 50%;
+}
+
+
+
+
 .form-textaria{
 
     width: 100%;
