@@ -319,13 +319,21 @@
 <form action="" class="form contacts-form">
     <div class="form-group">
         <label class="form-label">
-    <input class="form-input" type="text" minlength="3" placeholder=""/>
-    <span class="form-text">Имя*</span>
+    <input 
+    class="form-input"
+    type="text" 
+    minlength="3" placeholder=""
+    />
+    <span class="form-text">Имя&#42;</span>
 </label>
 
 <label class="form-label">
-    <input class="form-input" type="tel" required placeholder="" />
-    <span class="form-caption">Телефон*</span> 
+    <input
+    class="form-input"
+    type="tel"
+    required placeholder="" 
+    />
+    <span class="form-caption">Телефон&#42;</span> 
 
 </label>
     </div>
@@ -334,14 +342,12 @@
 <label class="form-field">
 
     <textarea 
-    name="massage" 
-    id="massage" 
-    rows="5" 
     class="form-message"
+    name="massage" 
+    rows="5" 
     placeholder="ВВедите текст..."
-    >
-</textarea>
-<span class="form-text">сообщение</span>
+    ></textarea>
+<span class="form-caption">сообщение</span>
 </label>
 
 <button type="button" class="main-btn main-btn-mode-dark" >онлайн-запись</button>
